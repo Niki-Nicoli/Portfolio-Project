@@ -1,13 +1,59 @@
-h1,
-h2,
-h3 {
-  font-family: "Playfair", serif;
-}
-p,
-footer {
-  font-family: monospace;
+:root {
+  --padding: 16px;
+  --color: whitesmoke;
+  --primary-color: rgb(64, 24, 102);
+  --default-font-family: monospace;
 }
 
 body {
   background-color: rgb(213, 175, 218);
+}
+
+.container {
+  max-width: 100%;
+  background-color: var(--primary-color);
+  color: var(--color);
+  text-decoration: none;
+  padding: var(--padding);
+  font-family: "Playfair", serif;
+}
+
+a {
+  color: var(--color);
+  text-decoration: none;
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair", serif;
+  text-align: center;
+  font-weight: 700;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.8;
+}
+footer {
+  padding: var(--padding);
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+
+footer {
+  margin: 16px;
+  font-family: "Playfair", serif;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
 }
