@@ -1,0 +1,13 @@
+h1,
+h2,
+h3 {
+  font-family: "Playfair", serif;
+}
+p,
+footer {
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(213, 175, 218);
+}
