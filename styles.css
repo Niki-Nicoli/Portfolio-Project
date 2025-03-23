@@ -9,7 +9,7 @@ body {
   background-color: rgb(213, 175, 218);
 }
 
-.container {
+.hero {
   max-width: 100%;
   background-color: var(--primary-color);
   color: var(--color);
@@ -24,9 +24,17 @@ a {
   font-family: var(--default-font-family);
 }
 
+li {
+  list-style: none;
+  font-family: var(--default-font-family);
+  font-size: 20px;
+}
+
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   font-family: "Playfair", serif;
   text-align: center;
   font-weight: 700;
@@ -51,7 +59,6 @@ button {
 }
 
 footer {
-  margin: 16px;
   font-family: "Playfair", serif;
   text-align: center;
   font-size: 32px;
