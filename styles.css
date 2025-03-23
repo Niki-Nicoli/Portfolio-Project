@@ -5,10 +5,6 @@
   --default-font-family: monospace;
 }
 
-body {
-  background-color: rgb(213, 175, 218);
-}
-
 .hero {
   max-width: 100%;
   background-color: var(--primary-color);
@@ -16,6 +12,12 @@ body {
   text-decoration: none;
   padding: var(--padding);
   font-family: "Playfair", serif;
+  margin: 0px auto;
+}
+
+.color {
+  max-width: 100%;
+  background-color: rgb(213, 175, 218);
 }
 
 a {
@@ -46,9 +48,6 @@ p {
   font-size: 20px;
   opacity: 0.8;
 }
-footer {
-  padding: var(--padding);
-}
 
 button {
   display: block;
@@ -63,4 +62,14 @@ footer {
   text-align: center;
   font-size: 32px;
   font-weight: bold;
+}
+
+@media (max-width: 550px) {
+  .col-4 {
+    width: 500px;
+    padding-bottom: 50px;
+  }
+  h4 {
+    text-decoration: underline;
+  }
 }
