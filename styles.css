@@ -65,11 +65,18 @@ footer {
 }
 
 @media (max-width: 550px) {
-  .col-4 {
+  .col-4,
+  .col-6 {
     width: 500px;
     padding-bottom: 50px;
   }
+
   h4 {
     text-decoration: underline;
   }
+}
+
+.justify {
+  display: flexbox;
+  justify-content: center;
 }
