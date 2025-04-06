@@ -19,8 +19,25 @@
   </head>
   <body>
     <div class="hero">
-      <h1>Journey to New Worlds</h1>
+      <nav class="d-flex justify-content-between">
+        <h1>Journey to New Worlds</h1>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <ul class="nav-links">
+          <li class="links"><a href="index.html">Home</a></li>
+          <li class="links"><a href="Author.html">Author Page</a></li>
+          <li class="links"><a href="Services.html">Editing Services</a></li>
+          <li class="links"><a href="">Blog</a></li>
+          <li class="links"><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
+    <br />
     <div>
       <h2>
         <div><p>Hello, I'm</p></div>
@@ -103,5 +120,13 @@
     <div class="hero">
       <footer>Created by <a href="">Nikilia Clark</a></footer>
     </div>
+      <script>
+      let mobileMenu = document.getElementById("mobile-menu");
+      let navLinks = document.querySelector(".nav-links");
+
+      mobileMenu.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
