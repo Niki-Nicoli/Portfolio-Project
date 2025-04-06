@@ -24,6 +24,10 @@ nav {
   padding: 3px;
 }
 
+.active {
+  color: rgb(213, 175, 218);
+}
+
 .links {
   display: inline;
   padding: 7px;
@@ -135,7 +139,7 @@ textarea {
     text-align: center;
   }
 
-  .active {
+  .activate {
     display: flex;
   }
 
