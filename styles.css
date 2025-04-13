@@ -6,7 +6,7 @@
 }
 
 .hero {
-  max-width: 100%;
+  width: 100%;
   background-color: var(--primary-color);
   color: var(--color);
   text-decoration: none;
@@ -120,7 +120,7 @@ textarea {
   max-width: 450px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
   .menu-toggle {
     display: flex;
   }
@@ -170,5 +170,15 @@ textarea {
 
   h4 {
     text-decoration: underline;
+  }
+
+  textarea {
+    padding: 12px;
+    width: 300px;
+    min-height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
   }
 }
